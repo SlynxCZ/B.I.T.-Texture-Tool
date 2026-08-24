@@ -177,4 +177,43 @@ B.I.T. Texture Tool is written in **Go (Golang)** and uses the native Windows **
 To build a 64-bit Windows GUI executable:
 
 ```bash
-GOOS=windows GOARCH=amd64 go build -ldflags="-H=windowsgui" -o BIT_Texture_Tool.exe main.go
+GOOS=windows GOARCH=amd64 go build -ldflags="-H=windowsgui" -o BIT_Texture_Tool.exe main.go## Source Code
+
+The complete B.I.T. Texture Tool source code is available in this repository.
+
+Contributions, bug fixes, improvements, and community feedback are welcome.
+
+---
+
+## License
+
+B.I.T. Texture Tool is released under the **MIT License**.
+
+You are free to:
+
+- Use the code
+- Modify it
+- Redistribute it
+- Create your own version
+- Include parts of it in another project
+- Use it commercially
+
+See the `LICENSE` file for the full license terms.
+
+---
+
+## Disclaimer
+
+B.I.T. Texture Tool is an independent community-made project.
+
+It is **not affiliated with, sponsored by, or endorsed by Valve Corporation**.
+
+Counter-Strike, Counter-Strike 2, Team Fortress, Team Fortress 2, Deadlock, Dota, Dota 2, Source, Source 2, Hammer, and related names are trademarks or properties of Valve Corporation.
+
+---
+
+## Author
+
+**Tabo** discord: tabo1337
+
+B.I.T. Texture Tool was developed by Tabo with assistance from ChatGPT.
