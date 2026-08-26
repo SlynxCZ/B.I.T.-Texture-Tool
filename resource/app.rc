@@ -1,0 +1,19 @@
+#include <windows.h>
+#include "resource.h"
+
+IDR_LOGO_LIGHT  RCDATA  "images/logo_light.png"
+IDR_LOGO_DARK   RCDATA  "images/logo_dark.png"
+
+IDR_FLAG_GB     RCDATA  "images/flag_gb.png"
+IDR_FLAG_RU     RCDATA  "images/flag_ru.png"
+IDR_FLAG_CZ     RCDATA  "images/flag_cz.png"
+IDR_FLAG_BR     RCDATA  "images/flag_br.png"
+IDR_FLAG_FR     RCDATA  "images/flag_fr.png"
+IDR_FLAG_DE     RCDATA  "images/flag_de.png"
+IDR_FLAG_ES     RCDATA  "images/flag_es.png"
+IDR_FLAG_PL     RCDATA  "images/flag_pl.png"
+IDR_FLAG_TR     RCDATA  "images/flag_tr.png"
+
+// Common controls v6 -- without this the buttons and combos render in the
+// Windows 95 style regardless of the theme the app draws itself.
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
